@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Fruit Burst | Exotic tastes at your doorstep
+    </title>
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <!-- google font lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- tailwind and daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .font-lato {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+    <!-- tailwind custom theme -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    backgroundImage: {
+                        'hero-bg': "url('./images/yellow-bg.jpg')",
+                    },
+                    colors: {
+                        'gradient-start': '#FF8938',
+                        'gradient-end': '#F00',
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+
+<body class="font-lato">
+    <!-- Header Section -->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar bg-[#F85559] max-w-screen-xl mx-auto rounded-full text-[#FFF]">
+            <div class="navbar-start  hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>All Fruits</a></li>
+                </ul>
+            </div>
+            <div class="navbar-start md:navbar-center">
+                <div class="">
+                    <button class="btn btn-square btn-ghost">
+                        <img src="./images/logo.png" alt="">
+                    </button>
+                </div>
+                <div class="">
+                    <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
+                </div>
+            </div>
+            <div class="md:navbar-end hidden md:inline-flex gap-2">
+                <div class="form-control">
+                    <div class="flex items-center justify-center">
+                        <div class="relative">
+                            <input type="text" placeholder="Search here"
+                                class="pl-4 pr-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:border-blue-500">
+                            <svg class="w-6 h-6 absolute right-3 top-2 text-gray-500" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                                    d="M15 11a4 4 0 11-8 0 4 4 0 018 0z" />
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                                    d="M20 20l-3.6-3.6" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-end md:inline-flex lg:hidden">
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <button class="btn btn-square btn-ghost">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                class="inline-block w-5 h-5 stroke-current">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h16M4 18h16"></path>
+                            </svg>
+                        </button>
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box text-[#000]">
+                        <li><a>Home</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+</body>
+
+</html>
