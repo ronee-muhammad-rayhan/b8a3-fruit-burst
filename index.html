@@ -16,6 +16,8 @@
     <!-- tailwind and daisy UI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/1ff5ad3067.js" crossorigin="anonymous"></script>
     <style>
         .font-lato {
             font-family: 'Lato', sans-serif;
@@ -351,9 +353,37 @@
                     <h2 class="mb-5 text-5xl font-extrabold">Meet the team section</h2>
                     <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece of
                         classical Latin literature from 45 BC, making it over 2000 years old.</p>
-                    <button
-                        class="btn btn-secondary bg-[#F85559] px-7 py-5 rounded-lg border-none capitalize  text-[#FFF]">Shop
-                        Now</button>
+                    <div class="cards flex justify-center gap-6 pt-12">
+                        <!-- card-1 -->
+                        <div class="flex-col justify-center bg-transparent text-center items-center">
+                            <div class="avatar">
+                                <div class="w-24 rounded-full">
+                                    <img src="./images/member1.png" />
+                                </div>
+                            </div>
+                            <h2 class="card-title text-2xl font-bold">Awlad Hossain</h2>
+                            <p>Fruits Expert</p>
+                            <div class="flex">
+                                <div
+                                    class="mx-auto flex justify-center bg-red-400 text-white rounded-full w-8 h-8 items-center text-center">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </div>
+                                <div
+                                    class="mx-auto flex justify-center bg-red-400 text-white rounded-full w-8 h-8 items-center text-center">
+
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+                                <div
+                                    class="mx-auto flex justify-center bg-red-400 text-white rounded-full w-8 h-8 items-center text-center">
+
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
                 </div>
             </div>
         </div>
