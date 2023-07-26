@@ -197,16 +197,157 @@
     <main>
 
         <!-- Deal Section -->
-        <section>
-            <div class="texts-and-timer">
-
+        <section class="flex-col max-w-screen-xl mx-auto md:my-8 lg:px-12 py-2 md:py-4 lg:py-8">
+            <div class="texts-and-timer flex">
+                <div class="text">
+                    <h1>Deal of the day</h1>
+                    <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin
+                        literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <div class="counter-timer">
+                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max text-2xl font-bold">
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:15;"></span>
+                            </span>
+                            days
+                        </div>:
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:10;"></span>
+                            </span>
+                            hours
+                        </div>:
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:24;"></span>
+                            </span>
+                            min
+                        </div>:
+                        <div class="flex flex-col">
+                            <span class="countdown font-mono text-5xl">
+                                <span style="--value:40;"></span>
+                            </span>
+                            sec
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="cards">
-
+            <div class="cards flex justify-center gap-6">
+                <!-- card-1 -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-2xl font-bold border-b-2">12.90$ - 18.85$</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <!-- rating -->
+                        <div class="rating rating-lg rating-half">
+                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1"
+                                checked />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                        </div>
+                        <div class="card-actions">
+                            <a class="">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-2xl font-bold border-b-2">12.90$ - 18.85$</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <!-- rating -->
+                        <div class="rating rating-lg rating-half">
+                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1"
+                                checked />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                        </div>
+                        <div class="card-actions">
+                            <a class="">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-2xl font-bold border-b-2">12.90$ - 18.85$</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <!-- rating -->
+                        <div class="rating rating-lg rating-half">
+                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1"
+                                checked />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                        </div>
+                        <div class="card-actions">
+                            <a class="">Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                        <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title text-2xl font-bold border-b-2">12.90$ - 18.85$</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                        <!-- rating -->
+                        <div class="rating rating-lg rating-half">
+                            <input type="radio" name="rating-10" class="rating-hidden" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1"
+                                checked />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-1" />
+                            <input type="radio" name="rating-10" class="bg-green-500 mask mask-star-2 mask-half-2" />
+                        </div>
+                        <div class="card-actions">
+                            <a class="">Details</a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="btn">
                 <button class="btn">Shop Now</button>
             </div>
+
         </section>
     </main>
     <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
