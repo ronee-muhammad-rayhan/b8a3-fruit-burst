@@ -222,35 +222,35 @@
     <main>
         <!-- Deal Section -->
         <section class="flex-col text-center max-w-screen-xl mx-auto md:my-8 py-2 md:py-4 lg:py-8">
-            <div class="texts-and-timer flex gap-24">
+            <div class="texts-and-timer lg:flex lg:gap-24">
                 <div class="text text-start">
-                    <h1 class="text-5xl font-extrabold">Deal of the day</h1>
+                    <h1 class="lg:text-5xl font-extrabold">Deal of the day</h1>
                     <p class="text-base font-medium">Contrary to popular belief, is not simply random text. It has roots
                         in a piece of classical Latin
                         literature from 45 BC, making it over 2000 years old.</p>
                 </div>
                 <div class="counter-timer">
-                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max text-2xl font-bold">
+                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max lg:text-2xl font-bold">
                         <div class="flex flex-col">
-                            <span class="countdown font-mono text-5xl">
+                            <span class="countdown font-mono lg:text-5xl">
                                 <span style="--value:15;"></span>
                             </span>
                             days
                         </div>:
                         <div class="flex flex-col">
-                            <span class="countdown font-mono text-5xl">
+                            <span class="countdown font-mono lg:text-5xl">
                                 <span style="--value:10;"></span>
                             </span>
                             hours
                         </div>:
                         <div class="flex flex-col">
-                            <span class="countdown font-mono text-5xl">
+                            <span class="countdown font-mono lg:text-5xl">
                                 <span style="--value:24;"></span>
                             </span>
                             min
                         </div>:
                         <div class="flex flex-col">
-                            <span class="countdown font-mono text-5xl">
+                            <span class="countdown font-mono lg:text-5xl">
                                 <span style="--value:40;"></span>
                             </span>
                             sec
@@ -258,10 +258,9 @@
                     </div>
                 </div>
             </div>
-            <div
-                class="cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center gap-1 md:gap-3 lg:gap-6 pt-12">
+            <div class="cards grid md:grid-cols-2 lg:grid-cols-4 justify-center gap-1 md:gap-3 lg:gap-6 pt-12">
                 <!-- card-1 -->
-                <div class="card w-96 md:w-72 bg-base-100 shadow-xl border border-[#12121219]">
+                <div class="card w-72 bg-base-100 shadow-xl border border-[#12121219]">
                     <figure class="px-10 pt-10">
                         <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -289,7 +288,7 @@
                     </div>
                 </div>
                 <!-- card-2 -->
-                <div class="card w-96 md:w-72 bg-base-100 shadow-xl border border-[#12121219]">
+                <div class="card w-72 bg-base-100 shadow-xl border border-[#12121219]">
                     <figure class="px-10 pt-10">
                         <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -317,7 +316,7 @@
                     </div>
                 </div>
                 <!-- card-3 -->
-                <div class="card w-96 md:w-72 bg-base-100 shadow-xl border border-[#12121219]">
+                <div class="card w-72 bg-base-100 shadow-xl border border-[#12121219]">
                     <figure class="px-10 pt-10">
                         <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -361,7 +360,7 @@
                     </div>
                 </div>
                 <!-- card-4 -->
-                <div class="card w-96 md:w-72 bg-base-100 shadow-xl border border-[#12121219]">
+                <div class="card w-72 bg-base-100 shadow-xl border border-[#12121219]">
                     <figure class="px-10 pt-10">
                         <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
                     </figure>
@@ -510,8 +509,8 @@
             </div>
         </div>
     </main>
-    <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
-        <div class="flex justify-center-center">
+    <footer class="footer footer-center p-10 rounded">
+        <div class="flex justify-center">
             <div class="">
                 <button class="btn btn-square btn-ghost">
                     <img src="./images/logo.png" alt="">
@@ -521,8 +520,7 @@
                 <a class="btn btn-ghost normal-case text-sm md:text-xl lg:text-4xl font-bold">Fruit Burst</a>
             </div>
         </div>
-        <div
-            class="grid lg:grid-flow-col grid-cols-4 justify-center items-center text-center place-content-center content-center align-middle self-center justify-self-center place-items-center gap-4">
+        <div class="grid grid-cols-3 lg:grid-cols-6 justify-center gap-4">
             <a class="link link-hover">Home</a>
             <a class="link link-hover">AboutUs</a>
             <a class="link link-hover">Shop</a>
